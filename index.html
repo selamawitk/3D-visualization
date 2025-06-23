@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Product Viewer - Selamawit Kinetibeb</title>
+  <link rel="icon" href="https://discoverthreejs.com/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <h1>3D Product Viewer - Futuristic Table</h1>
+  <canvas id="viewer"></canvas>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/examples/jsm/controls/OrbitControls.js": "https://unpkg.com/three@0.160.0/examples/jsm/controls/OrbitControls.js"
+    }
+  }
+  </script>
+
+  <script type="module" src="./scripts/main.js" defer></script>
+</body>
+</html>
